@@ -45,6 +45,11 @@ Uses **PDBFixer + OpenMM** to:
 python3 active_site_finder.py 4QO8.pdb
 # Select ligand: 36U (chain A)
 ```
+## 🖼️ Visualizations
+
+### 4QO8 with 36U Ligand in Active Site
+![4QO8 with 36U](images/4QO8_36U.png)
+
 
 **Active Site Coordinates:**
 | Parameter | Value |
@@ -100,10 +105,14 @@ vina --config config.txt --out vina_out.pdbqt 2>&1 | tee vina.log
 ---
 
 ## 📊 Results
+### Ligand Docking Poses
 
+
+### Vina Output - All Binding Modes
+![Vina Output](images/vina_out.png)
 Docking produced **9 binding poses** visualized in Discovery Studio Visualizer.  
 The best pose (mode 1) shows 36U occupying the active site with favorable interactions.
-
+![Ligand Poses](images/ligand_poses.png)
 To view results in PyMOL:
 ```python
 load 4QO8_fixed.pdb
@@ -144,7 +153,7 @@ zoom best_pose
 
 ## 👨‍🔬 Author
 
-**Chrisantus Tinega**  
+**Oigara Tinega**  
 AI Engineer & Computational Chemist  
 📧 tinegachris797@gmail.com  
 🌐 [Portfolio](https://portfolio-pi-pink-8zvm423hp8.vercel.app/)  
