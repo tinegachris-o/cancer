@@ -2,6 +2,19 @@
 
 > **Target:** 4QO8 — Cancer-associated protein  
 > **Ligand:** 36U — (5S)-2-[(2-chlorophenyl)sulfanyl]-5-(2,6-dichlorophenyl)-3-hydroxycyclohex-2-en-1-one  
+---
+## 🎯 Biological Context
+
+**4QO8 — Lactate Dehydrogenase A (LDHA)**
+
+LDHA catalyzes the conversion of pyruvate to lactate, the final step of glycolysis. Many cancer cells rely heavily on glycolysis even in the presence of oxygen (the "Warburg effect"), producing excess lactate that supports rapid tumor growth, survival under hypoxic conditions, and immune evasion. Because of this metabolic dependency, LDHA is over-expressed and over-active in many cancers, making it a validated therapeutic target.
+
+The PDB structure 4QO8 captures human LDHA bound to a substituted 3-hydroxy-2-mercaptocyclohex-2-enone inhibitor (compound 104), originally identified via screening (IC50 = 1.7 μM) and optimized to IC50 = 0.18 μM, with favorable oral pharmacokinetics in rat studies (F = 45%).
+
+**Ligand 36U** is structurally related to this inhibitor class — this docking study evaluates how well 36U binds the LDHA active site, as a step toward identifying potential LDHA inhibitors that could disrupt cancer cell metabolism.
+---
+. Because of this, LDHA is over-expressed/over-active in many cancers and is a recognized drug target. The structure shows LDHA in complex with a compound that inhibits the enzyme, originally identified through screening and optimized to improve biochemical inhibition activity, with promising pharmacokinetic properties when tested orally in rats. RCSB PDB
+So your docking is essentially screening/testing how well your ligand binds LDHA's active site — the idea being that a strong inhibitor could block cancer cells' altered metabolism
 > **Tool:** AutoDock Vina v1.2.5  
 > **Visualisation:** BIOVIA Discovery Studio Visualizer 2025 & PyMOL 3.2
 
